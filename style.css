@@ -291,7 +291,7 @@ body {
       rgba(195, 33, 33, 0.304),
       rgba(28, 192, 237, 0.749)
     ),
-    url(../img/boxes2.JPG);
+    url(boxes2.JPG);
   /* padding-top: 2rem; */
   background-size: 150%;
 }
@@ -301,7 +301,7 @@ body {
       rgba(195, 33, 33, 0.304),
       rgba(28, 192, 237, 0.749)
     ),
-    url(../img/keyboard\ 2.JPG);
+    url(keyboard\ 2.JPG);
 }
 .card__heading {
   font-size: 2.8rem;
@@ -516,78 +516,7 @@ body {
   box-sizing: content-box;
 }
 
-.search {
-  height: 60vh;
-  width: 100%;
-  position: relative;
-  margin-top: 7rem;
-  margin-bottom: 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../../img/clouds.jpeg);
-  background-size: cover;
-}
-.search__phrase {
-  position: absolute;
-  top: 9rem;
-  left: 46%;
-  text-align: center;
-  font-weight: 100;
-  font-size: 4rem;
-  font-family: "Roboto", sans-serif;
-  color: #fff;
-}
-.search__box {
-  display: flex;
-  position: absolute;
-  top: 45%;
-  left: 60%;
-  transform: translate(-40%, -50%);
-}
-.search__input {
-  font-family: inherit;
-  font-size: 2rem;
-  font-weight: 900;
-  color: #fff;
-  background-color: #97bace;
-  background-size: cover;
-  border: none;
-  padding: 0.7rem 2rem;
-  border-radius: 0.5rem;
-  width: 38rem;
-  height: 4rem;
-  transition: all 0.2s;
-  position: absolute;
-  top: 95%;
-  left: 100%;
-  transform: translate(-53%, -55%);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-}
-.search__input:focus {
-  outline: none;
-}
-.search__input::-webkit-input-placeholder {
-  font-weight: 100;
-  color: var(--color-grey-light-4);
-}
-.search__input:focus + .search__button {
-  background-color: #fff;
-}
-.search__button {
-  border: none;
-  background-color: #fff;
-}
-.search__button:focus {
-  outline: none;
-}
-.search__button:active {
-  transform: translateY(2px);
-}
-.search__key {
-  width: 65%;
-  margin: auto 0;
-}
+
 
 .landing-page {
   height: 100vh;
@@ -692,7 +621,7 @@ body {
 }
 .hook__house-clip {
   width: 50vw;
-  background-image: url(../../img/wide-house.jpg);
+  background-image: url(wide-house.jpg);
   background-size: contain;
   background-position: top;
   position: relative;
@@ -987,7 +916,7 @@ body {
       rgba(195, 33, 33, 0.304),
       rgba(28, 192, 237, 0.749)
     ),
-    url(/img/tech.JPG);
+    url(tech.JPG);
   background-size: cover;
 
   transform: skewY(-6deg);
@@ -1082,7 +1011,7 @@ body {
       rgba(255, 255, 255, 0.9) 50%,
       transparent 50%
     ),
-    url(/img/tech.JPG);
+    url(tech.JPG);
   background-size: 100%;
 
   border-radius: 3px;
@@ -1097,7 +1026,7 @@ body {
         rgba(255, 255, 255, 0.9) 65%,
         transparent 65%
       ),
-      url(/img/tech.JPG);
+      url(tech.JPG);
     background-size: cover;
   }
 }
@@ -1108,7 +1037,7 @@ body {
         rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0.9) 100%
       ),
-      url(/img/tech.JPG);
+      url(tech.JPG);
   }
 }
 
